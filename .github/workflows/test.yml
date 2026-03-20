@@ -24,7 +24,7 @@ jobs:
       # Clone and build test-eyes-reporter
       - name: Setup test-eyes-reporter
         run: |
-          git clone https://github.com/goldbergyoni/test-eyes.git ../test-eyes
+          git clone https://github.com/practicajs/test-eyes.git ../test-eyes
           cd ../test-eyes
           git checkout feature/playwright-reporter
           npm install -g pnpm
