@@ -2,11 +2,11 @@
   "runId": "2026-03-20_d68aea9",
   "prNumber": 0,
   "commitSha": "d68aea981e118d152b52217f6720c6ab6fcc37e5",
-  "createdAt": "2026-03-20T14:38:42.706Z",
+  "createdAt": "2026-03-20T14:38:53.431Z",
   "tests": [
     {
       "name": "example.spec.ts > auth > should login successfully",
-      "durationMs": 2,
+      "durationMs": 4,
       "status": "passed",
       "wasFlaky": false
     },
@@ -18,37 +18,55 @@
     },
     {
       "name": "example.spec.ts > payments > should process payment",
-      "durationMs": 1504,
+      "durationMs": 1502,
       "status": "passed",
       "wasFlaky": false
     },
     {
       "name": "example.spec.ts > payments > should refund payment",
-      "durationMs": 503,
+      "durationMs": 502,
       "status": "passed",
       "wasFlaky": false
     },
     {
       "name": "example.spec.ts > profile > should load user data",
-      "durationMs": 2,
+      "durationMs": 3,
       "status": "failed",
       "wasFlaky": false
     },
     {
       "name": "example.spec.ts > profile > should load user data",
+      "durationMs": 3,
+      "status": "failed",
+      "wasFlaky": false
+    },
+    {
+      "name": "example.spec.ts > profile > should load user data",
+      "durationMs": 5,
+      "status": "failed",
+      "wasFlaky": false
+    },
+    {
+      "name": "example.spec.ts > profile > should update profile",
+      "durationMs": 4,
+      "status": "failed",
+      "wasFlaky": false
+    },
+    {
+      "name": "example.spec.ts > profile > should update profile",
+      "durationMs": 4,
+      "status": "failed",
+      "wasFlaky": false
+    },
+    {
+      "name": "example.spec.ts > profile > should update profile",
       "durationMs": 2,
       "status": "passed",
       "wasFlaky": true
     },
     {
-      "name": "example.spec.ts > profile > should update profile",
-      "durationMs": 1,
-      "status": "passed",
-      "wasFlaky": false
-    },
-    {
       "name": "example.spec.ts > notifications > should send email notification",
-      "durationMs": 0,
+      "durationMs": 1,
       "status": "passed",
       "wasFlaky": false
     },
