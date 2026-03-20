@@ -1,0 +1,44 @@
+name: Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Clone and build test-eyes-reporter
+      - name: Setup test-eyes-reporter
+        run: |
+          git clone https://github.com/goldbergyoni/test-eyes.git ../test-eyes
+          cd ../test-eyes
+          git checkout feature/playwright-reporter
+          npm install -g pnpm
+          pnpm install
+          pnpm --filter test-eyes-reporter build
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: Run tests
+        run: npm test || true
+        env:
+          CI: true
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
