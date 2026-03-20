@@ -5,7 +5,7 @@ export default defineConfig({
   retries: 2, // Enable retries to detect flaky tests
   reporter: [
     ['list'],
-    ['test-eyes-reporter', {
+    ['@practica/test-eyes', {
       dataBranch: 'gh-data',
       deployBranch: 'gh-pages',
       deploy: true

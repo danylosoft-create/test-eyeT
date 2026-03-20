@@ -8,6 +8,6 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.52.0",
-    "test-eyes-reporter": "file:../test-eyes/collectors/playwright-reporter"
+    "@practica/test-eyes": "^0.1.0"
   }
 }
