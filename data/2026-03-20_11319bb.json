@@ -2,7 +2,7 @@
   "runId": "2026-03-20_11319bb",
   "prNumber": 0,
   "commitSha": "11319bbb0a0127c5c0e15548b51db52440a85cb7",
-  "createdAt": "2026-03-20T14:11:14.243Z",
+  "createdAt": "2026-03-20T14:11:22.462Z",
   "tests": [
     {
       "name": " >  > example.spec.ts > auth > should login successfully",
@@ -18,13 +18,13 @@
     },
     {
       "name": " >  > example.spec.ts > payments > should process payment",
-      "durationMs": 1505,
+      "durationMs": 1503,
       "status": "passed",
       "wasFlaky": false
     },
     {
       "name": " >  > example.spec.ts > payments > should refund payment",
-      "durationMs": 504,
+      "durationMs": 503,
       "status": "passed",
       "wasFlaky": false
     },
@@ -42,7 +42,7 @@
     },
     {
       "name": " >  > example.spec.ts > notifications > should send email notification",
-      "durationMs": 1,
+      "durationMs": 0,
       "status": "passed",
       "wasFlaky": false
     },
