@@ -1,5 +1,7 @@
 import { test, expect } from '@playwright/test'
 
+// Test suite for demo application
+
 test.describe('auth', () => {
   test('should login successfully', async () => {
     // Fast test - always passes
