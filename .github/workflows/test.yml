@@ -37,8 +37,9 @@ jobs:
       - name: Deploy dashboard
         run: |
           # Clone test-eyes for frontend build
-          git clone --depth 1 https://github.com/practicajs/test-eyes.git ../test-eyes
+          git clone https://github.com/practicajs/test-eyes.git ../test-eyes
           cd ../test-eyes
+          git fetch origin feature/architecture-alignment-final
           git checkout feature/architecture-alignment-final || git checkout main || true
           npm install -g pnpm
           pnpm install
