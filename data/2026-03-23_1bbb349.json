@@ -1,12 +1,12 @@
 {
-  "runId": "1bbb349-1774277427009",
+  "runId": "1bbb349-1774277494365",
   "prNumber": 0,
   "commitSha": "1bbb34924e832431fb272ef2eae5d9f14c4170fc",
-  "createdAt": "2026-03-23T14:50:27.009Z",
+  "createdAt": "2026-03-23T14:51:34.365Z",
   "tests": [
     {
       "name": "example.spec.ts > auth > should login successfully",
-      "durationMs": 6,
+      "durationMs": 5,
       "status": "passed",
       "wasFlaky": false
     },
@@ -18,7 +18,7 @@
     },
     {
       "name": "example.spec.ts > payments > should process payment",
-      "durationMs": 1505,
+      "durationMs": 1504,
       "status": "passed",
       "wasFlaky": false
     },
