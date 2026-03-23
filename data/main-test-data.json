@@ -1,76 +1,77 @@
 {
   "schemaVersion": "1.0.0",
   "meta": {
-    "totalRuns": 5,
-    "lastAggregatedAt": "2026-03-23T09:21:12.934Z",
+    "totalRuns": 6,
+    "lastAggregatedAt": "2026-03-23T09:21:36.586Z",
     "processedFiles": [
       "2026-03-20_d68aea9.json",
       "2026-03-20_144506_d68aea9.json",
       "2026-03-20_144514_d68aea9.json",
       "2026-03-20_144522_d68aea9.json",
-      "2026-03-23_092112_d68aea9.json"
+      "2026-03-23_092112_d68aea9.json",
+      "2026-03-23_092136_d68aea9.json"
     ]
   },
   "tests": {
     "example.spec.ts > auth > should login successfully": {
-      "totalRuns": 5,
-      "passCount": 5,
+      "totalRuns": 6,
+      "passCount": 6,
       "failCount": 0,
       "flakyCount": 0,
       "avgDurationMs": 3,
-      "p95DurationMs": 3
+      "p95DurationMs": 5
     },
     "example.spec.ts > auth > should logout successfully": {
-      "totalRuns": 5,
-      "passCount": 5,
+      "totalRuns": 6,
+      "passCount": 6,
       "failCount": 0,
       "flakyCount": 0,
       "avgDurationMs": 1,
       "p95DurationMs": 1
     },
     "example.spec.ts > payments > should process payment": {
-      "totalRuns": 5,
-      "passCount": 5,
+      "totalRuns": 6,
+      "passCount": 6,
       "failCount": 0,
       "flakyCount": 0,
       "avgDurationMs": 1503,
       "p95DurationMs": 1503
     },
     "example.spec.ts > payments > should refund payment": {
-      "totalRuns": 5,
-      "passCount": 5,
+      "totalRuns": 6,
+      "passCount": 6,
       "failCount": 0,
       "flakyCount": 0,
       "avgDurationMs": 502,
       "p95DurationMs": 502
     },
     "example.spec.ts > profile > should load user data": {
-      "totalRuns": 7,
-      "passCount": 4,
-      "failCount": 3,
-      "flakyCount": 0,
+      "totalRuns": 9,
+      "passCount": 5,
+      "failCount": 4,
+      "flakyCount": 1,
       "avgDurationMs": 3,
       "p95DurationMs": 3
     },
     "example.spec.ts > profile > should update profile": {
-      "totalRuns": 7,
-      "passCount": 5,
-      "failCount": 2,
-      "flakyCount": 1,
+      "totalRuns": 9,
+      "passCount": 6,
+      "failCount": 3,
+      "flakyCount": 2,
       "avgDurationMs": 2,
-      "p95DurationMs": 2
+      "p95DurationMs": 4
     },
     "example.spec.ts > notifications > should send email notification": {
-      "totalRuns": 5,
-      "passCount": 5,
+      "totalRuns": 6,
+      "passCount": 6,
       "failCount": 0,
       "flakyCount": 0,
       "avgDurationMs": 1,
       "p95DurationMs": 1
     },
     "example.spec.ts > notifications > should send push notification": {
-      "totalRuns": 5,
-      "passCount": 5,
+      "totalRuns": 6,
+      "passCount": 6,
       "failCount": 0,
       "flakyCount": 0,
       "avgDurationMs": 0,
