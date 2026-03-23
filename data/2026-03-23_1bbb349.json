@@ -1,8 +1,8 @@
 {
-  "runId": "1bbb349-1774277121314",
+  "runId": "1bbb349-1774277427009",
   "prNumber": 0,
   "commitSha": "1bbb34924e832431fb272ef2eae5d9f14c4170fc",
-  "createdAt": "2026-03-23T14:45:21.314Z",
+  "createdAt": "2026-03-23T14:50:27.009Z",
   "tests": [
     {
       "name": "example.spec.ts > auth > should login successfully",
@@ -12,7 +12,7 @@
     },
     {
       "name": "example.spec.ts > auth > should logout successfully",
-      "durationMs": 3,
+      "durationMs": 2,
       "status": "passed",
       "wasFlaky": false
     },
@@ -24,33 +24,32 @@
     },
     {
       "name": "example.spec.ts > payments > should refund payment",
-      "durationMs": 503,
+      "durationMs": 502,
       "status": "passed",
       "wasFlaky": false
     },
     {
       "name": "example.spec.ts > profile > should load user data",
-      "durationMs": 6,
-      "status": "passed",
-      "wasFlaky": true,
-      "retries": 2
-    },
-    {
-      "name": "example.spec.ts > profile > should update profile",
-      "durationMs": 6,
+      "durationMs": 5,
       "status": "passed",
       "wasFlaky": true,
       "retries": 1
     },
     {
+      "name": "example.spec.ts > profile > should update profile",
+      "durationMs": 2,
+      "status": "passed",
+      "wasFlaky": false
+    },
+    {
       "name": "example.spec.ts > notifications > should send email notification",
-      "durationMs": 3,
+      "durationMs": 2,
       "status": "passed",
       "wasFlaky": false
     },
     {
       "name": "example.spec.ts > notifications > should send push notification",
-      "durationMs": 3,
+      "durationMs": 1,
       "status": "passed",
       "wasFlaky": false
     }
