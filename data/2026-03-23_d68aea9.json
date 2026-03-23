@@ -1,12 +1,12 @@
 {
-  "runId": "d68aea9-1774276513429",
+  "runId": "d68aea9-1774276718426",
   "prNumber": 0,
   "commitSha": "d68aea981e118d152b52217f6720c6ab6fcc37e5",
-  "createdAt": "2026-03-23T14:35:13.429Z",
+  "createdAt": "2026-03-23T14:38:38.426Z",
   "tests": [
     {
       "name": "example.spec.ts > auth > should login successfully",
-      "durationMs": 4,
+      "durationMs": 2,
       "status": "passed",
       "wasFlaky": false
     },
@@ -30,27 +30,25 @@
     },
     {
       "name": "example.spec.ts > profile > should load user data",
-      "durationMs": 4,
+      "durationMs": 0,
       "status": "passed",
-      "wasFlaky": true,
-      "retries": 2
+      "wasFlaky": false
     },
     {
       "name": "example.spec.ts > profile > should update profile",
-      "durationMs": 2,
+      "durationMs": 0,
       "status": "passed",
-      "wasFlaky": true,
-      "retries": 1
+      "wasFlaky": false
     },
     {
       "name": "example.spec.ts > notifications > should send email notification",
-      "durationMs": 1,
+      "durationMs": 2,
       "status": "passed",
       "wasFlaky": false
     },
     {
       "name": "example.spec.ts > notifications > should send push notification",
-      "durationMs": 1,
+      "durationMs": 0,
       "status": "passed",
       "wasFlaky": false
     }
