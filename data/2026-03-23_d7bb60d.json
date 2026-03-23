@@ -1,0 +1,58 @@
+{
+  "runId": "d7bb60d-1774280610641",
+  "prNumber": 0,
+  "commitSha": "d7bb60dc11ef9570a1970729f4900564f88dba03",
+  "createdAt": "2026-03-23T15:43:30.641Z",
+  "tests": [
+    {
+      "name": "example.spec.ts > auth > should login successfully",
+      "durationMs": 6,
+      "status": "passed",
+      "wasFlaky": false
+    },
+    {
+      "name": "example.spec.ts > auth > should logout successfully",
+      "durationMs": 3,
+      "status": "passed",
+      "wasFlaky": false
+    },
+    {
+      "name": "example.spec.ts > payments > should process payment",
+      "durationMs": 1505,
+      "status": "passed",
+      "wasFlaky": false
+    },
+    {
+      "name": "example.spec.ts > payments > should refund payment",
+      "durationMs": 502,
+      "status": "passed",
+      "wasFlaky": false
+    },
+    {
+      "name": "example.spec.ts > profile > should load user data",
+      "durationMs": 7,
+      "status": "failed",
+      "wasFlaky": false,
+      "retries": 2
+    },
+    {
+      "name": "example.spec.ts > profile > should update profile",
+      "durationMs": 5,
+      "status": "passed",
+      "wasFlaky": true,
+      "retries": 2
+    },
+    {
+      "name": "example.spec.ts > notifications > should send email notification",
+      "durationMs": 3,
+      "status": "passed",
+      "wasFlaky": false
+    },
+    {
+      "name": "example.spec.ts > notifications > should send push notification",
+      "durationMs": 2,
+      "status": "passed",
+      "wasFlaky": false
+    }
+  ]
+}
