@@ -7,8 +7,7 @@ export default defineConfig({
     ['list'],
     ['@practica/test-eyes', {
       dataBranch: 'gh-data',
-      deployBranch: 'gh-pages',
-      deploy: true
+      githubComment: true
     }]
   ],
   use: {

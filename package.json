@@ -8,6 +8,6 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.52.0",
-    "@practica/test-eyes": "^0.1.6"
+    "@practica/test-eyes": "^0.1.17"
   }
 }
